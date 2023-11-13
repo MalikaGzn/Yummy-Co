@@ -17,6 +17,10 @@ class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        slides = [
+            OnboardingSlide(title: "Deliciuos Dishes", description: "Experience a variety of amazing dishes from different cultures around the world", image: <#T##UIImage#>)
+        ]
 
         collectionView.delegate = self
         collectionView.dataSource = self
