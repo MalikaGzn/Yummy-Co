@@ -20,6 +20,7 @@ class OnboardingViewController: UIViewController {
         
         slides = [
             OnboardingSlide(title: "Deliciuos Dishes", description: "Experience a variety of amazing dishes from different cultures around the world", image: <#T##UIImage#>)
+            OnboardingSlide(title: "Fast Delivery", description: "From door to door", image: <#T##UIImage#>)
         ]
 
         collectionView.delegate = self
